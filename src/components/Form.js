@@ -14,10 +14,10 @@ const Form = () => {
       })
       .then(
         (result) => {
-          console.log('SUCCESS!');
+          alert('Email sent successfully!');
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          alert('Failed to send email. Error: ' + error.text);
         },
       );
   };
