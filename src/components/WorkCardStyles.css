@@ -72,11 +72,8 @@
   opacity: 0;
   scale: 0.9
   }
-@media screen and (max-width: 500px) {
-    .project-1  {
-        height: auto;
-        margin-top: 40px;
-        animation: none; 
-        transition: none; 
+  @media screen and (max-width: 640px) {
+    .project-container1 {
+        padding: 20px;
     }
 }
