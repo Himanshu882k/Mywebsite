@@ -72,8 +72,8 @@
   opacity: 0;
   scale: 0.9
   }
-@media screen and (max-width: 800px) {
-    .work-container {
+@media screen and (max-width: 500px) {
+    .project-1  {
         height: auto;
         margin-top: 40px;
         animation: none; 
