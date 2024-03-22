@@ -64,6 +64,8 @@
     border-radius: 30px;
     text-align: center;
     backface-visibility: hidden;
+    
+    overflow-x: hidden;
 }
 
 
@@ -73,7 +75,9 @@
   scale: 0.9
   }
   @media screen and (max-width: 640px) {
-    .project-container1 {
-        padding: 20px;
-    }
+    .project-1 {
+    width: 350px;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding: 0;}
 }
