@@ -72,3 +72,11 @@
   opacity: 0;
   scale: 0.9
   }
+@media screen and (max-width: 800px) {
+    .work-container {
+        height: auto;
+        margin-top: 40px;
+        animation: none; 
+        transition: none; 
+    }
+}
