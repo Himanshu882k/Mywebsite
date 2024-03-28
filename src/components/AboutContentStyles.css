@@ -9,9 +9,11 @@
 }
 .about .left{
     text-align: center;
-    margin: auto;
     padding: 1rem;
     max-width: 350px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .about .left p{
     margin: 1.2rem 0;

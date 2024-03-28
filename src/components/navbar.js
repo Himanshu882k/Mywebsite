@@ -37,7 +37,6 @@ const Navbar = () => {
                 <li>
                     <Link to="/about">About</Link>
                 </li>
-                {/* Add the resume download link here */}
                 <li>
                     <a href="https://ik.imagekit.io/himanshu/Himanshu.pdf?updatedAt=1710264972762" download>Download Resume</a>
                 </li>

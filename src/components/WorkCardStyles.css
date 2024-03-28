@@ -19,9 +19,10 @@
     margin-top: 80px;
     animation: flip 0.5s linear;
     transition: transform 0.5s ease, opacity 0.5s ease, scale 0.5s ease;
-    
 }
-
+.work-container h1{
+  padding: 2px;
+}
 
 .pro-title {
     color: #fff;
@@ -64,8 +65,8 @@
     border-radius: 30px;
     text-align: center;
     backface-visibility: hidden;
-    
     overflow-x: hidden;
+    background-color: #000;
 }
 
 

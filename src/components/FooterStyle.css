@@ -38,6 +38,17 @@ h4{
     font-size: 1.2rem;
     padding-bottom: 0.7rem;
 }
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.copyright p {
+    margin: 0;
+}
 .social{
     font-size: 1.5rem;
     padding-bottom: 0.7rem;

@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-right: 50px;
+}
+
+.education h1 {
+    color: aliceblue;
+    font-size: 20pt;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.education h2{
+    color: aliceblue;
+    font-size: 20pt;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.education-details {
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.skills {
+    width: 400px;
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+
+.skills-heading h2 {
+    color: aliceblue;
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skills ul {
+    list-style-type: none;
+    text-align: left;
+    color: #fff;
+}
+
+.skills ul li {
+    margin-bottom: 5px;
+    font-size: 16pt;
+}
+@media only screen and (max-width: 640px) {
+    .education,
+    .skills {
+      width: 100%;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      padding: 20px;
+      margin-left:0px;
+      margin-right:0px;
+    }
+  }

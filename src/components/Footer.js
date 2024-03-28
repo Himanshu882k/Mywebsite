@@ -1,7 +1,6 @@
 import "./FooterStyle.css";
 import { FaPhone, FaGithub, FaHome, FaLinkedin, FaMailBulk } from 'react-icons/fa';
-
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
     return (
@@ -36,8 +35,11 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className="copyright">
+                <p>&copy; 2024 Himanshu Sachan</p>
+            </div>
         </div>
     )
 }
 
-export default Footer
+export default Footer;
