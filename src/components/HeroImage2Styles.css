@@ -9,7 +9,7 @@
 }
 .hero-img::before {
     content: "";
-    background:url("https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010130.jpg?w=1380&t=st=1710835815~exp=1710836415~hmac=44aa2eb94f9661bbc765913648e839b62ed506249409260147bd0f8673ec9784");
+    background-image: url('../assets/intro-bg.jpg');
     background-size: cover;
     background-position: center top;
     height: 100%;

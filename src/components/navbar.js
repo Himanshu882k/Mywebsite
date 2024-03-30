@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import React, { useState } from 'react';
-
 import "./NavbarStyles.css";
 
 const Navbar = () => {
@@ -21,8 +20,12 @@ const Navbar = () => {
 
     return (
         <div className={color ? "header header-bg" : "header"}>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Licorice&display=swap');
+            </style>
             <Link to="/">
-                <h1>Portfolio.</h1>
+            <h1 style={{ fontFamily: 'Dancing Script, cursive' }}>Portfolio.</h1>
+
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>

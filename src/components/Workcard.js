@@ -9,9 +9,9 @@ const Workcard = () => {
 
   useEffect(() => {
     setFlip(true);
-    const timer = setTimeout(() => setFlip(false), 500); // Remove the flip class after 0.5s
-    return () => clearTimeout(timer); // Clean up the timer
-  }, [currentContainer]); // Run this effect whenever currentContainer changes
+    const timer = setTimeout(() => setFlip(false), 500);
+    return () => clearTimeout(timer); 
+  }, [currentContainer]); 
 
   const handleNext = () => {
     setCurrentContainer(currentContainer % 4 + 1);
@@ -91,7 +91,7 @@ const Workcard = () => {
                         <div className="pro-details">
                             <p>"Colorize Black and White Images with Python using OpenCV" is a project that utilizes computer vision techniques to add color to grayscale images automatically, enhancing their visual appeal and providing a richer viewing experience.</p>
                             <div className="pro-buttons">
-                                <NavLink to="https://github.com/Himanshu882k/Co2emission">View</NavLink>
+                                {/* <NavLink to="https://github.com/Himanshu882k/Co2emission">View</NavLink> */}
                             </div>
                         </div>
                         <div className="navigation-buttons">

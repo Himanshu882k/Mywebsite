@@ -7,10 +7,13 @@ class HeroImage2 extends Component{
     return ( 
       <div className="hero-img">
         <div className="heading"> 
-          <h1>
+        <style>
+          @import url(''https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap'');
+        </style>
+          <h1 style={{ fontFamily: 'Exo 2, sans-serif' }}>
             {this.props.heading}
           </h1>
-          <p>
+          <p style={{ fontFamily: 'Dosis, sans-serif' }}>
             {this.props.text}
           </p>
         </div>

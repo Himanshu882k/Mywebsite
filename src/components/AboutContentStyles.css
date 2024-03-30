@@ -43,3 +43,11 @@
     grid-row: 1;
     z-index:5;
 }
+@media only screen and (max-width: 640px) {
+    .right .img    {
+        display:none;
+    }
+    .about .left{
+       margin-bottom: 20px;
+    }
+}
