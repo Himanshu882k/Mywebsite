@@ -16,7 +16,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 50vh;
-  
+    margin-top: 20px;
     animation: flip 0.5s linear;
     transition: transform 0.5s ease, opacity 0.5s ease, scale 0.5s ease;
     background-color: #080808;
@@ -83,4 +83,7 @@
     box-sizing: border-box;
     margin-right: 5px;
     padding: 0;}
+    .work-container {
+      margin-top: 20px;
+    }
 }
