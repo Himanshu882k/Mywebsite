@@ -4,6 +4,7 @@ import Heroimg from '../components/Heroimg';
 import Footer from '../components/Footer';
 import Workcard from '../components/Workcard';
 import Education from '../components/Education';
+import Form from '../components/Form';
 const Home = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Home = () => {
       <Heroimg />
       <Workcard />
       <Education /> 
+      <Form />
       <Footer />
     </div>
   )

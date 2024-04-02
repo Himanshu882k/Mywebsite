@@ -1,24 +1,31 @@
 .form label{
     margin-bottom: 0.5rem;
 }
-form{
+form {
     color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding-top: 4rem;
-    max-width: 800px;
+    
     margin: auto;
     font-size: 20px;
+    background-image: url("../assets/black.JPG");
+
+    background-position: center; 
 }
 .form h1{
     color: #f4f4f4;
     font-size: 20pt;
 }
-.form input{
-    width: 100%;
-} 
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 80%; /* Set the width to 80% of the container */
+    max-width: 400px; /* Set a maximum width for responsiveness */
+}
+
 form textarea{
     margin-bottom: 1rem;
     padding: 10px 18px;

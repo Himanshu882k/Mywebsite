@@ -1,6 +1,6 @@
 .mask {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
     background-image: url('../assets/intro-bg.jpg');
     background-position: center;
@@ -9,11 +9,16 @@
 .mask::after{
     content: "";
     width: 100%;
-    height: 100%;
+    height: 70vh;
     position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5); 
+}
+.description{
+    color: #fff;
+    font-size: 2rem;
+    font-variant: small-caps;
 }
 .hero{
     height: 100%;
@@ -43,11 +48,15 @@
 }
 @media screen and (max-width: 640px){
     .hero .content h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .hero .content p{
         font-size: 1.4rem;
     } 
     .mask {
-        height: 90vh;}
+        height: 70vh;}
+    .description{
+        font-size: 1.5rem;
+        font-variant: small-caps;
+    }
 }

@@ -16,9 +16,11 @@
     justify-content: flex-start;
     align-items: center;
     height: 50vh;
-    margin-top: 30px;
+  
     animation: flip 0.5s linear;
     transition: transform 0.5s ease, opacity 0.5s ease, scale 0.5s ease;
+    background-color: #080808;
+
 }
 .work-container h1{
   padding: 2px;

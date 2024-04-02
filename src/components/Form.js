@@ -30,13 +30,13 @@ const Form = () => {
       </style>
       <h1 style={{ fontFamily: 'Pompiere, sans-serif' }}>Contact Me</h1>
       <label style={{ fontFamily: 'Pompiere, sans-serif' }}className='form'>Name</label>
-      <input type="text" name="user_name" style={{ width: "80%", height: "30px" }} />
+      <input type="text" name="user_name" style={{  height: "30px" }} />
       <label style={{ fontFamily: 'Pompiere, sans-serif' }}className='form'>Email</label>
-      <input type="email" name="user_email" style={{ width: "80%", height: "30px" }} />
+      <input type="email" name="user_email" style={{  height: "30px" }} />
       <label style={{ fontFamily: 'Pompiere, sans-serif' }}className='form'>Subject</label>
-      <input type="text" name="Subject" style={{ width: "80%", height: "30px" }}></input>
+      <input type="text" name="Subject" style={{ height: "30px" }}></input>
       <label style={{ fontFamily: 'Pompiere, sans-serif' }}>Message</label>
-      <textarea style={{ width: "80%", height: "300px" }} rows="6" name='message' placeholder="Type your message here" />
+      <textarea style={{height: "300px" }} rows="6" name='message' placeholder="Type your message here" />
       <input style={{ fontFamily: 'Pompiere, sans-serif' }}className='btn' type="submit" value="Send" />
     </form>
   );
