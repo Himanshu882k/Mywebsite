@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
-import { FaGithub, FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { FaGithub, FaArrowRight, FaArrowLeft, FaKaggle } from "react-icons/fa";
 import "./WorkCardStyles.css";
 
 const Workcard = () => {
@@ -86,12 +86,12 @@ const Workcard = () => {
             {currentContainer === 4 && (
                 <div className="project-container1">
                     <div className="project-1">
-                        <FaGithub size={80} style={{ color: "#fff" }} />
+                        <FaKaggle size={80} style={{ color: "#fff" }} />
                         <h2 className="pro-title">Colorize Black and White Images with Python using OpenCV</h2>
                         <div className="pro-details">
                             <p>"Colorize Black and White Images with Python using OpenCV" is a project that utilizes computer vision techniques to add color to grayscale images automatically, enhancing their visual appeal and providing a richer viewing experience.</p>
                             <div className="pro-buttons">
-                                {/* <NavLink to="https://github.com/Himanshu882k/Co2emission">View</NavLink> */}
+                                <NavLink to="https://www.kaggle.com/code/himanshusachan69/black-white-image-colorization-using-cnn">View</NavLink>
                             </div>
                         </div>
                         <div className="navigation-buttons">
